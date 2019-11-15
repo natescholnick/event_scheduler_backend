@@ -70,7 +70,7 @@ def retrieve():
                 'notes' : result.notes
             })
 
-        return jsonify({'code' : 200, 'events' : events})
+        return jsonify({'code' : 200, 'message' : 'Events retrieved.', 'events' : events})
 
 
     except:
